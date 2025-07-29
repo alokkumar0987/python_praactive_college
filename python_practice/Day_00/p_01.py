@@ -1,0 +1,15 @@
+print("hello")
+print() #print empty line
+print()
+print("hello")
+print("print('hello')")
+#print('print('hello')')  ## error
+print('print("hello")')
+print("hello"+" ""world")
+print("hello"+"world")
+print("Hello world \nHello world \nHello world \nHello world")
+print("====LEARNING TAKING INPUT FROM USER====")
+name=str(input("Enter your name: "))
+age=int(input("Enter your age: "))
+wight=float(input("Enter your wight: "))
+print("your name is: ", name, "your age is: ", age, "your wight is: ", wight)
